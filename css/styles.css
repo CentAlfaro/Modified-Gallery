@@ -1,0 +1,204 @@
+/* Color Palettes
+    #0b0c10
+    #11151b
+    #1f2833
+    #c5c6c7
+    #66fcf1
+    #45a29e
+     */
+     
+body{  
+    background-color: black;
+    font-family: 'Arial';  
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    place-content: middle;
+}  
+
+.side-navigation{
+    background-color: #1f2833;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    float: left;
+}
+
+.website-name{
+    background-color: teal;
+    color: white;
+    font-size: 33px;
+    text-align: center;
+    padding: 1.5em 0.5em;
+    font-style: italic;
+    font-weight: bold;
+}
+.main-elements{
+    /* background-color: blue; */
+    padding: 6em 0;
+    height: 40%;
+}
+.menu-elem{
+    /* background-color: teal; */
+    font-weight: 700;
+    font-size: 25px;
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu-link{
+    color: white;
+    text-decoration: none;
+}
+    .active, .menu-link:hover {
+    color: #66fcf1;
+}
+.credential-elements{
+    /* background-color: red; */
+    height: 25%;
+    text-align: center;
+}
+
+.credential-button{
+    font-size: 15px;
+    width: 80%;  
+    height: 40px;  
+    border: solid;  
+    border-color: #66fcf1;
+    border-radius: 17px;   
+    background-color: #1f2833;  
+    color: white;
+    margin-bottom: 2em;
+}
+.credential-button:hover{
+    border-color: #45a29e;
+    cursor: pointer;
+}
+
+
+
+/* Login Page */
+.back-button{
+    position: fixed;
+    padding: 1.5em;
+}
+.link-home{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+    .link-home:hover{
+        color: #66fcf1;
+    }
+
+.body-wrap{
+    background-color: #11151b;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login-wrapper{
+    display: grid;
+    width: 500px;
+    height: 500px;
+    background-color: #1f2833;
+    border-radius: 20px;
+}
+
+.login-form{  
+    display: grid;
+    place-content: center;
+}
+
+.text-field{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+.credential-box{
+    width: 308px;  
+    height: 40px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}
+.credential-box-small{
+    width: 146px;  
+    height: 40px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}
+
+.btnSubmit{
+    font-size: 15px;
+    width: 320px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    background-color: #66fcf1;  
+    color: black;
+    margin-bottom: 1em;
+}
+.btnSubmit:hover{
+    background-color: #45a29e;
+}
+
+.btnRegister{
+    font-size: 15px;
+    width: 320px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    background-color: #66fcf1;  
+    color: black;
+    margin-bottom: 1em;
+}
+.btnRegister:hover{ 
+    background-color: #45a29e;  
+}
+
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+
+.forgot{
+    color: #66fcf1;
+}
+.forgot:hover{
+    color: black;
+}
+.or-field{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #fff; 
+    line-height: 0.1em;
+    margin: 10px 0 20px;  
+}
+
+.or-line{
+    background:#1f2833; 
+    padding:0 10px; 
+}
+
+
+
+/* Home Page */
+.main-window{
+    background-color: #11151b;
+    width:80%;
+    height: 100%;
+    float: right;
+}
