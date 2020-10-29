@@ -11,7 +11,10 @@
         }      
         function registerRedirect() {
           window.location.href = "credentials/signup.html";
-        }      
+        }  
+        function proceed() {
+          window.location.href = "movies.html";
+        }     
     </script> 
 </head>
 <body>
@@ -30,7 +33,14 @@
     </div>
 
     <div class="main-window">
-       
+       <div class="hero-image">
+           <div class="hero-text">
+               <div class="introduction">WELCOME TO CENTO'S GALLERY</div>
+               <div class="personal-message">I hope you enjoy this simple website that I created ^_^</div>
+               <div><input class="proceed-button" type="button"value="CLICK TO PROCEED >" onclick="proceed()"></div>
+           </div>
+       </div>
     </div>
+    
 
 </body>
